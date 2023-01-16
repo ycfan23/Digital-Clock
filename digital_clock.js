@@ -8,7 +8,7 @@ function show_time() {
   let session = 'AM';
 
   if (hour > 12) {
-    hour = hour - 12 ;//
+    hour = hour - 12 ;//12 hour clock system;
     session = 'PM';
   }
   hour = (hour < 10)? `0${hour}` : hour;
