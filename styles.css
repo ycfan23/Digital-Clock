@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(159, 226, 43);
+  background-color: black;
 }
 .clock {
   position: absolute;
@@ -8,4 +8,17 @@ body {
   font-size: 60px;
   letter-spacing: 5px;
   transform: translate(-50%, -50%);
+  color: white;
+  border: 4px solid #CA0072;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.clock:hover{
+  background-color: #CA0072;
+  box-shadow: 0 0 30px #CA0072;
+}
+
+.time_div {
+  text-align: center;
 }

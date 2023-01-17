@@ -12,7 +12,7 @@ function show_time() {
   let date = new Date();
 
   let month = months[date.getMonth()];
-  let day = date.getDay();
+  let day = date.getDate();
   let year = date.getFullYear();
   let calendar = `${month} ${day}, ${year}`;
 
